@@ -17,3 +17,11 @@ function myFunction3() {
   document.getElementsByTagName("BODY")[0].style.backgroundColor = "yellow";
 }
 
+function toggleText() {
+  var text = document.getElementById("demo");
+  if (text.style.display === "none") {
+    text.style.display = "block";
+  } else {
+    text.style.display = "none";
+  }
+}
